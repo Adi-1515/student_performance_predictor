@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Models (large binary files — regenerate locally with training scripts)
+models/*.pkl
+models/*.joblib
+
+# Data files — regenerate locally by running generate_dataset.py + data_cleaning.py
+data/raw/*.csv
+data/processed/*.csv
+
+# Visualizations — regenerate locally by running eda.py
+visualizations/*.png
+visualizations/*.jpg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Streamlit cache
+.streamlit/
